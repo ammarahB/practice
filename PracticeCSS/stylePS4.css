@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+#Name
+{
+    color: blueviolet;
+}
+a {
+    margin-right: 150px;
+    text-decoration: none;
+}
+button {
+    background-color: blueviolet;
+}
+#div1 {
+    height: 25px;
+}
+#div2
+{ 
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: rgba(255, 0, 0, 0.5)  
+    
+}
+#div3
+{ 
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 255, 0, 0.5);
+    border: 2px solid black;
+}
+#div4
+{ 
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0, 0, 255, 0.5);
+    border: 2px solid black;
+}
+#content {
+    height: 500px;
+}
+#div5 {
+    background-color: aquamarine;
+    height: 40px;
+    line-height: 20px;
+    text-align: center;
+}
+#div2, #div3, #div4 {
+    display: inline-block;
+}

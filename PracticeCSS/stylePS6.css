@@ -1,0 +1,30 @@
+
+ul {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+#div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px
+}
+#div2 {
+    align-self: flex-end;
+    background-color: pink;
+    height: 100px;
+    width: 100px
+
+}

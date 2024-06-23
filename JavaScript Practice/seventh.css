@@ -1,0 +1,46 @@
+/* div {
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: azure;
+    margin-top: 10px;
+    border: 2px solid  black
+}
+
+div:hover {
+
+    background-color: blue;
+} */
+
+/* .dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+} */
+
+#circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .aquamarine {
+    background-color: aquamarine;
+    color: white;
+}
+
+.aqua {
+    background-color: aqua;
+    background-color: azure;
+} */
+
+
+

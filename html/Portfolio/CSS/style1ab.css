@@ -1,0 +1,73 @@
+h1 {
+    color:rgb(116, 72, 158);
+    height: 50px;
+    width: 300px;
+    border-style: groove;
+    border-color: aqua;
+    text-align: center;
+}
+p {
+    color:rgb(116, 72, 158);;
+}
+button {
+    background-color: #CDB4DB;
+    color: rgb(116, 72, 158);;
+    border-color: #BDE0FE;
+    border-radius: 10px;
+    outline: 0px;
+}
+body {
+    background-color:#FFC8DD;
+    
+}
+#Headingone {
+ color:  rgb(116, 72, 158);
+}
+ #Headingtwo {
+    color: rgb(116, 72, 158);
+ }
+
+ .class101 {
+    color:  rgb(116, 72, 158);
+ }
+
+#exc {
+    text-align: justify;
+    color: purple;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#exc1 {
+    text-align: center;
+    color: purple;
+    text-decoration: darkmagenta wavy underline;
+    font-weight: lighter;
+}
+a {
+    text-decoration: underline;
+    color: #4e7f0d;
+}
+#exc2 {
+    text-align: justify;
+    color: purple;
+    text-shadow: #FFC8DD;
+    font-weight: bolder;
+    font-style: oblique;
+}
+#exc3 {
+    /*fall back mechanism*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p1 {
+    font-size: 10px;
+}
+#p2 {
+    font-size: 20px;
+}
+#p3 {
+    font-size: 30px;
+}
+#p4 {
+    line-height: 20px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,49 @@
+div {
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation: coloranimate 3s ease-in 5s infinite alternate;
+}
+
+div {
+    /*transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s;
+    transition: all 2s ease-in 1s;*/
+    /*transform: rotate(45deg);
+    rotate: z 90deg
+    transform: scale(1, 0.5);
+    transform: translate(20px);*/
+}
+/*div:hover {
+
+   /* background-color: aquamarine;
+    color: indianred;
+    font-size: 20px;
+    transform: scaleX(2);
+    transform: scaleY(1.5);
+    transform: rotate(180deg);
+    transform: translate(50px, 100px);
+    transform: skew(30deg)
+}*/
+@keyframes coloranimate {
+    from { 
+    left: 0px;
+    background-color: yellow;
+    color: black;
+}
+50% {
+    background-color: aqua;
+    color: black;
+}
+    to { 
+    left: 100px;
+    background-color: red;
+    color: white;
+}
+}

@@ -1,0 +1,17 @@
+.loader {
+    animation: spinanimate 0.5s ease 0s infinite normal;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    border: 0.1px solid aquamarine;
+    border-top: 6px solid aquamarine
+}
+
+@keyframes spinanimate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
